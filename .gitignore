@@ -1,0 +1,24 @@
+.gradle/
+build/
+out/
+.idea/
+*.iml
+.kotlin/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+
+# Local config not in version control
+local.properties
+
+CLAUDE.md
+
+# Local verification, backups, credentials and capture artifacts
+delivery/
+.env
+.env.*
+!.env.example
+*.burp
+*.har
+*.log
